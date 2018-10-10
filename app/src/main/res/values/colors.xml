@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#FF4081</color>
+    <color name="colorPrimaryDark">#C60055</color>
+    <color name="colorSecondary">#FFA000</color>
+    <color name="colorSecondaryDark">#C67100</color>
+    <color name="colorAccent">#FF79B0</color>
+
+    <color name="topGradient_start">#f3db89</color>
+    <color name="topGradient_end">#ffc28b</color>
+    <color name="btmGradient_start">#f2b5d2</color>
+    <color name="btmGradient_end">#b493bd</color>
 </resources>

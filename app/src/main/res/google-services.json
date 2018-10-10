@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "956275102617",
+    "firebase_url": "https://slease-1128.firebaseio.com",
+    "project_id": "slease-1128",
+    "storage_bucket": "slease-1128.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956275102617:android:5cd3fd3ed88d4f7f",
+        "android_client_info": {
+          "package_name": "com.example.Slease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956275102617-gu31efvtf4ngf3lfiaik0gjmahhefnk7.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "956275102617-gu31efvtf4ngf3lfiaik0gjmahhefnk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7CjJU6Ry-mwolCOnlFJ-phytRVvysgOI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

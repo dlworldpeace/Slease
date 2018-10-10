@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="13"
+    tools:context=".Create.CreateActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtVName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Item Name"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp" />
+
+            <EditText
+                android:id="@+id/txtVDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|start"
+                android:hint="Item Description / Spoilage"
+                android:inputType="textMultiLine"
+                android:lines="8"
+                android:maxLines="10"
+                android:minLines="6"
+                android:paddingEnd="10dp"
+                android:paddingStart="10dp"
+                android:scrollbars="vertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:clipToPadding="false"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="2dp"
+                    android:text=" Item Category" />
+
+                <Spinner
+                    android:id="@+id/spinnerCategory"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:spinnerMode="dropdown" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/imageList_ErrorDisplay"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                style="@android:style/Widget.EditText"/>
+
+            <GridLayout
+                android:id="@+id/create_images"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="4">
+
+            </GridLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:text="Deposit" />
+
+                <EditText
+                    android:id="@+id/txtVDeposit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:hint="SGD"
+                    android:inputType="numberDecimal"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="Rate" />
+
+                <EditText
+                    android:id="@+id/txtVRatePerDay"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:hint="SGD"
+                    android:inputType="numberDecimal"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:text="per" />
+
+                <Spinner
+                    android:id="@+id/spinnerFrequency"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:spinnerMode="dropdown" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:clipToPadding="false"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingStart="2dp"
+                    android:paddingEnd="2dp"
+                    android:text="Allow" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_Cash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Cash" />
+
+                <CheckBox
+                    android:id="@+id/checkBox_Transfer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Digital/Bank Transfer" />
+
+                <TextView
+                    android:id="@+id/checkBox_ErrorDisplay"
+                    android:layout_width="36dp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    style="@android:style/Widget.EditText"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/btmGradient_start"
+        android:text="@string/create_publish"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

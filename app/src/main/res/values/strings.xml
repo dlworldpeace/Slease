@@ -1,3 +1,22 @@
 <resources>
+
     <string name="app_name">Slease</string>
+
+    <!--Facebook Login Auth-->
+    <string name="facebook_app_id">207063893255542</string>
+    <string name="fb_login_protocol_scheme">fb207063893255542</string>
+
+    <string name="loginbutton">LOG IN</string>
+    <string name="Login_Password">Password</string>
+    <string name="Login_Username">Username</string>
+    <string name="Topbar_Setting">Setting</string>
+    <string name="Topbar_Search">Search</string>
+    <string name="Select_photo">Select From Gallery</string>
+    <string name="Take_photo">Take Photo</string>
+    <string name="create_publish">Publish</string>
+    <string name="bottomnav_title_0">Browse</string>
+    <string name="bottomnav_title_1">Activity</string>
+    <string name="bottomnav_title_2">My Profile</string>
+    <string name="Login_button">Log In</string>
+
 </resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1059211856145",
+    "firebase_url": "https://slease1128.firebaseio.com",
+    "project_id": "slease1128",
+    "storage_bucket": "slease1128.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059211856145:android:405e1c80e2a76ef3",
+        "android_client_info": {
+          "package_name": "com.example.gaominyu.slease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059211856145-60rqt2416tid2cdbs40ifbq6aqq3kqvj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gaominyu.slease",
+            "certificate_hash": "4a9e012ce1b81d39fd61e42b47c1ae512176f595"
+          }
+        },
+        {
+          "client_id": "1059211856145-j1cql76e9ql6ej1f2cuncb8jfp10olof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBwcUneyMC4-W2YqLTr7v06WoEogige8k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059211856145-j1cql76e9ql6ej1f2cuncb8jfp10olof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
